@@ -1,0 +1,1 @@
+{"dependencies":{"@material-ui/core":"^4.3.0","@material-ui/icons":"^4.2.1","@material-ui/system":"^4.3.2","create-next-app":"^9.0.3","next":"^9.0.3","react":"^16.8.6","react-dom":"^16.8.6","reactstrap":"^8.0.1"},"scripts":{"dev":"next","build":"next build","start":"next start"},"name":"","version":"","readme":"ERROR: No README data found!","_id":"@"}

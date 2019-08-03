@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'create-next-app' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData create-next-app
+8 silly fetchNamedPackageData create-next-app
+9 silly mapToRegistry name create-next-app
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://nexus.prod.aws.about.com/repository/npm-all/
+12 silly mapToRegistry uri http://nexus.prod.aws.about.com/repository/npm-all/create-next-app
+13 verbose request uri http://nexus.prod.aws.about.com/repository/npm-all/create-next-app
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 2:57:59 PM
+16 verbose request id 0e87747a334ba758
+17 http request GET http://nexus.prod.aws.about.com/repository/npm-all/create-next-app
+18 http 200 http://nexus.prod.aws.about.com/repository/npm-all/create-next-app
+19 verbose headers { date: 'Thu, 01 Aug 2019 18:57:59 GMT',
+19 verbose headers   server: 'Nexus/3.15.2-01 (OSS)',
+19 verbose headers   'x-content-type-options': 'nosniff',
+19 verbose headers   'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+19 verbose headers   'content-type': 'application/json',
+19 verbose headers   'content-length': '78249' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Thu, 01 Aug 2019 18:57:59 GMT',
+20 silly get     server: 'Nexus/3.15.2-01 (OSS)',
+20 silly get     'x-content-type-options': 'nosniff',
+20 silly get     'content-security-policy': 'sandbox allow-forms allow-modals allow-popups allow-presentation allow-scripts allow-top-navigation',
+20 silly get     'content-type': 'application/json',
+20 silly get     'content-length': '78249' } ]
+21 verbose get saving create-next-app to /home/niranjan/.npm/nexus.prod.aws.about.com/repository/npm-all/create-next-app/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule create-next-app@9.0.3 checking installable status
+35 silly cache add args [ 'create-next-app', null ]
+36 verbose cache add spec create-next-app
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'create-next-app',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'create-next-app',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed create-next-app@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for create-next-app
+40 info addNameTag [ 'create-next-app', 'latest' ]
+41 silly mapToRegistry name create-next-app
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry http://nexus.prod.aws.about.com/repository/npm-all/
+44 silly mapToRegistry uri http://nexus.prod.aws.about.com/repository/npm-all/create-next-app
+45 verbose addNameTag registry:http://nexus.prod.aws.about.com/repository/npm-all/create-next-app not in flight; fetching
+46 verbose get http://nexus.prod.aws.about.com/repository/npm-all/create-next-app not expired, no request
+47 silly addNameTag next cb for create-next-app with tag latest
+48 silly addNamed create-next-app@9.0.3
+49 verbose addNamed "9.0.3" is a plain semver version for create-next-app
+50 silly mapToRegistry name create-next-app
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry http://nexus.prod.aws.about.com/repository/npm-all/
+53 silly mapToRegistry uri http://nexus.prod.aws.about.com/repository/npm-all/create-next-app
+54 verbose addRemoteTarball http://nexus.prod.aws.about.com/repository/npm-all/create-next-app/-/create-next-app-9.0.3.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'http://nexus.prod.aws.about.com/repository/npm-all/create-next-app/-/create-next-app-9.0.3.tgz',
+55 verbose addRemoteTarball   'b1ea2c3abd16d52e7e1a339b0aca23fcaa652644' ]
+56 info retry fetch attempt 1 at 2:57:59 PM
+57 info attempt registry request try #1 at 2:57:59 PM
+58 http fetch GET http://nexus.prod.aws.about.com/repository/npm-all/create-next-app/-/create-next-app-9.0.3.tgz
+59 http fetch 200 http://nexus.prod.aws.about.com/repository/npm-all/create-next-app/-/create-next-app-9.0.3.tgz
+60 silly fetchAndShaCheck shasum b1ea2c3abd16d52e7e1a339b0aca23fcaa652644
+61 verbose addTmpTarball /tmp/npm-625-54b6b2b4/nexus.prod.aws.about.com/repository/npm-all/create-next-app/-/create-next-app-9.0.3.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for create-next-app@9.0.3
+63 silly cache afterAdd create-next-app@9.0.3
+64 verbose afterAdd /home/niranjan/.npm/create-next-app/9.0.3/package/package.json not in flight; writing
+65 verbose afterAdd /home/niranjan/.npm/create-next-app/9.0.3/package/package.json written
+66 silly loadAllDepsIntoIdealTree Finishing
+67 silly idealTree:prePrune lib
+67 silly idealTree:prePrune └── create-next-app@9.0.3
+68 silly loadIdealTree Finishing
+69 silly currentTree lib
+70 silly idealTree lib
+70 silly idealTree └── create-next-app@9.0.3
+71 silly generateActionsToTake Starting
+72 silly install generateActionsToTake
+73 warn checkPermissions Missing write access to /usr/local/lib
+74 silly rollbackFailedOptional Starting
+75 silly rollbackFailedOptional Finishing
+76 silly runTopLevelLifecycles Starting
+77 silly runTopLevelLifecycles Finishing
+78 silly install printInstalled
+79 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+80 verbose cwd /home/niranjan/Documents/github/material-ui-practice
+81 error Linux 4.18.0-25-generic
+82 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "create-next-app"
+83 error node v8.10.0
+84 error npm  v3.5.2
+85 error path /usr/local/lib
+86 error code EACCES
+87 error errno -13
+88 error syscall access
+89 error Error: EACCES: permission denied, access '/usr/local/lib'
+89 error  { Error: EACCES: permission denied, access '/usr/local/lib'
+89 error   errno: -13,
+89 error   code: 'EACCES',
+89 error   syscall: 'access',
+89 error   path: '/usr/local/lib' }
+90 error Please try running this command again as root/Administrator.
+91 verbose exit [ -13, true ]
